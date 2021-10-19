@@ -9,7 +9,7 @@
     "defaultCoin": "ravencoin",
     "logger" : {
         "level" : "debug",
-        "file" : "/home/pool/cyberpool-ravencoin-server/logs/ravencoin_debug.log"
+        "file" : "/home/pool/ravencoin/logs/ravencoin_debug.log"
     },
     "cliHost": "127.0.0.1",
     "cliPort": 17117,
@@ -43,8 +43,8 @@
         "host": "0.0.0.0",
         "port": 3001,
         "sslport": 443,
-        "sslkey": "/home/pool/cyberpool-ravencoin-server/certs/privkey.pem",
-        "sslcert": "/home/pool/cyberpool-ravencoin-server/certs/fullchain.pem",
+        "sslkey": "/home/pool/ravencoin/certs/privkey.pem",
+        "sslcert": "/home/pool/ravencoin/certs/fullchain.pem",
         "stratumHost": "raven.cyberpool.org",
         "stats": {
             "updateInterval": 300,
