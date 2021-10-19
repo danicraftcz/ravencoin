@@ -54,7 +54,7 @@ npm install -g npm@latest-6
 git config --global http.https://gopkg.in.followRedirects true
 git clone https://github.com/danicraftcz/ravencoin
 chmod -R +x ravencoin/
-cd cyberpool-ravencoin-server
+cd ravencoin
 
 npm install
 npm update
